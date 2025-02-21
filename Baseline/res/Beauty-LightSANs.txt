@@ -1,0 +1,184 @@
+Namespace(data_dir='./data/', output_dir='output/', data_name='Beauty', do_eval=False, ckp=0, hidden_size=64, num_hidden_layers=2, hidden_act='gelu', hidden_dropout_prob=0.5, initializer_range=0.02, max_seq_length=50, backbone='LightSANs', num_attention_heads=2, attention_probs_dropout_prob=0.5, d_state=32, d_conv=4, expand=2, embedding_size=64, num_TTT_heads=4, mini_batch_size=16, rope_theta=10000, lr=0.001, batch_size=256, epochs=200, no_cuda=False, log_freq=1, seed=42, weight_decay=0.0, adam_beta1=0.9, adam_beta2=0.999, gpu_id='0', cuda_condition=True, data_file='./data/Beauty.txt', item_size=12103, log_file='output/LightSANs-Beauty-0.txt')
+Total Parameters: 1670656
+{'epoch': 0, 'loss': '1.3107'}
+{'Epoch': 0, 'HIT@5': '0.0102', 'NDCG@5': '0.0060', 'HIT@10': '0.0161', 'NDCG@10': '0.0079', 'HIT@20': '0.0228', 'NDCG@20': '0.0096'}
+Validation score increased.  Saving model ...
+{'epoch': 1, 'loss': '1.1672'}
+{'Epoch': 1, 'HIT@5': '0.0111', 'NDCG@5': '0.0067', 'HIT@10': '0.0186', 'NDCG@10': '0.0091', 'HIT@20': '0.0294', 'NDCG@20': '0.0118'}
+Validation score increased.  Saving model ...
+{'epoch': 2, 'loss': '1.0834'}
+{'Epoch': 2, 'HIT@5': '0.0115', 'NDCG@5': '0.0075', 'HIT@10': '0.0204', 'NDCG@10': '0.0103', 'HIT@20': '0.0304', 'NDCG@20': '0.0128'}
+Validation score increased.  Saving model ...
+{'epoch': 3, 'loss': '0.9929'}
+{'Epoch': 3, 'HIT@5': '0.0142', 'NDCG@5': '0.0093', 'HIT@10': '0.0215', 'NDCG@10': '0.0117', 'HIT@20': '0.0338', 'NDCG@20': '0.0147'}
+Validation score increased.  Saving model ...
+{'epoch': 4, 'loss': '0.9089'}
+{'Epoch': 4, 'HIT@5': '0.0154', 'NDCG@5': '0.0103', 'HIT@10': '0.0255', 'NDCG@10': '0.0136', 'HIT@20': '0.0382', 'NDCG@20': '0.0168'}
+Validation score increased.  Saving model ...
+{'epoch': 5, 'loss': '0.8373'}
+{'Epoch': 5, 'HIT@5': '0.0189', 'NDCG@5': '0.0130', 'HIT@10': '0.0278', 'NDCG@10': '0.0158', 'HIT@20': '0.0430', 'NDCG@20': '0.0196'}
+Validation score increased.  Saving model ...
+{'epoch': 6, 'loss': '0.7726'}
+{'Epoch': 6, 'HIT@5': '0.0217', 'NDCG@5': '0.0154', 'HIT@10': '0.0306', 'NDCG@10': '0.0183', 'HIT@20': '0.0457', 'NDCG@20': '0.0221'}
+Validation score increased.  Saving model ...
+{'epoch': 7, 'loss': '0.7091'}
+{'Epoch': 7, 'HIT@5': '0.0255', 'NDCG@5': '0.0174', 'HIT@10': '0.0369', 'NDCG@10': '0.0211', 'HIT@20': '0.0536', 'NDCG@20': '0.0253'}
+Validation score increased.  Saving model ...
+{'epoch': 8, 'loss': '0.6533'}
+{'Epoch': 8, 'HIT@5': '0.0271', 'NDCG@5': '0.0196', 'HIT@10': '0.0394', 'NDCG@10': '0.0236', 'HIT@20': '0.0566', 'NDCG@20': '0.0279'}
+Validation score increased.  Saving model ...
+{'epoch': 9, 'loss': '0.6016'}
+{'Epoch': 9, 'HIT@5': '0.0309', 'NDCG@5': '0.0216', 'HIT@10': '0.0443', 'NDCG@10': '0.0259', 'HIT@20': '0.0601', 'NDCG@20': '0.0299'}
+Validation score increased.  Saving model ...
+{'epoch': 10, 'loss': '0.5597'}
+{'Epoch': 10, 'HIT@5': '0.0309', 'NDCG@5': '0.0221', 'HIT@10': '0.0448', 'NDCG@10': '0.0266', 'HIT@20': '0.0621', 'NDCG@20': '0.0309'}
+Validation score increased.  Saving model ...
+{'epoch': 11, 'loss': '0.5172'}
+{'Epoch': 11, 'HIT@5': '0.0331', 'NDCG@5': '0.0239', 'HIT@10': '0.0470', 'NDCG@10': '0.0284', 'HIT@20': '0.0665', 'NDCG@20': '0.0333'}
+Validation score increased.  Saving model ...
+{'epoch': 12, 'loss': '0.4767'}
+{'Epoch': 12, 'HIT@5': '0.0366', 'NDCG@5': '0.0255', 'HIT@10': '0.0507', 'NDCG@10': '0.0300', 'HIT@20': '0.0698', 'NDCG@20': '0.0348'}
+Validation score increased.  Saving model ...
+{'epoch': 13, 'loss': '0.4367'}
+{'Epoch': 13, 'HIT@5': '0.0372', 'NDCG@5': '0.0266', 'HIT@10': '0.0524', 'NDCG@10': '0.0315', 'HIT@20': '0.0707', 'NDCG@20': '0.0361'}
+Validation score increased.  Saving model ...
+{'epoch': 14, 'loss': '0.4025'}
+{'Epoch': 14, 'HIT@5': '0.0379', 'NDCG@5': '0.0269', 'HIT@10': '0.0532', 'NDCG@10': '0.0318', 'HIT@20': '0.0745', 'NDCG@20': '0.0372'}
+Validation score increased.  Saving model ...
+{'epoch': 15, 'loss': '0.3723'}
+{'Epoch': 15, 'HIT@5': '0.0413', 'NDCG@5': '0.0297', 'HIT@10': '0.0561', 'NDCG@10': '0.0344', 'HIT@20': '0.0779', 'NDCG@20': '0.0399'}
+Validation score increased.  Saving model ...
+{'epoch': 16, 'loss': '0.3478'}
+{'Epoch': 16, 'HIT@5': '0.0436', 'NDCG@5': '0.0312', 'HIT@10': '0.0591', 'NDCG@10': '0.0362', 'HIT@20': '0.0802', 'NDCG@20': '0.0415'}
+Validation score increased.  Saving model ...
+{'epoch': 17, 'loss': '0.3211'}
+{'Epoch': 17, 'HIT@5': '0.0401', 'NDCG@5': '0.0287', 'HIT@10': '0.0567', 'NDCG@10': '0.0340', 'HIT@20': '0.0774', 'NDCG@20': '0.0392'}
+EarlyStopping counter: 1 out of 30
+{'epoch': 18, 'loss': '0.3028'}
+{'Epoch': 18, 'HIT@5': '0.0423', 'NDCG@5': '0.0303', 'HIT@10': '0.0591', 'NDCG@10': '0.0357', 'HIT@20': '0.0824', 'NDCG@20': '0.0416'}
+Validation score increased.  Saving model ...
+{'epoch': 19, 'loss': '0.2827'}
+{'Epoch': 19, 'HIT@5': '0.0415', 'NDCG@5': '0.0302', 'HIT@10': '0.0604', 'NDCG@10': '0.0363', 'HIT@20': '0.0822', 'NDCG@20': '0.0418'}
+Validation score increased.  Saving model ...
+{'epoch': 20, 'loss': '0.2661'}
+{'Epoch': 20, 'HIT@5': '0.0429', 'NDCG@5': '0.0303', 'HIT@10': '0.0605', 'NDCG@10': '0.0359', 'HIT@20': '0.0848', 'NDCG@20': '0.0421'}
+Validation score increased.  Saving model ...
+{'epoch': 21, 'loss': '0.2537'}
+{'Epoch': 21, 'HIT@5': '0.0430', 'NDCG@5': '0.0304', 'HIT@10': '0.0621', 'NDCG@10': '0.0366', 'HIT@20': '0.0847', 'NDCG@20': '0.0423'}
+Validation score increased.  Saving model ...
+{'epoch': 22, 'loss': '0.2390'}
+{'Epoch': 22, 'HIT@5': '0.0448', 'NDCG@5': '0.0323', 'HIT@10': '0.0624', 'NDCG@10': '0.0379', 'HIT@20': '0.0848', 'NDCG@20': '0.0436'}
+Validation score increased.  Saving model ...
+{'epoch': 23, 'loss': '0.2301'}
+{'Epoch': 23, 'HIT@5': '0.0411', 'NDCG@5': '0.0294', 'HIT@10': '0.0587', 'NDCG@10': '0.0351', 'HIT@20': '0.0821', 'NDCG@20': '0.0409'}
+EarlyStopping counter: 1 out of 30
+{'epoch': 24, 'loss': '0.2191'}
+{'Epoch': 24, 'HIT@5': '0.0422', 'NDCG@5': '0.0306', 'HIT@10': '0.0593', 'NDCG@10': '0.0361', 'HIT@20': '0.0831', 'NDCG@20': '0.0421'}
+EarlyStopping counter: 2 out of 30
+{'epoch': 25, 'loss': '0.2093'}
+{'Epoch': 25, 'HIT@5': '0.0434', 'NDCG@5': '0.0314', 'HIT@10': '0.0607', 'NDCG@10': '0.0370', 'HIT@20': '0.0848', 'NDCG@20': '0.0430'}
+EarlyStopping counter: 3 out of 30
+{'epoch': 26, 'loss': '0.2016'}
+{'Epoch': 26, 'HIT@5': '0.0425', 'NDCG@5': '0.0303', 'HIT@10': '0.0615', 'NDCG@10': '0.0364', 'HIT@20': '0.0850', 'NDCG@20': '0.0423'}
+EarlyStopping counter: 4 out of 30
+{'epoch': 27, 'loss': '0.1938'}
+{'Epoch': 27, 'HIT@5': '0.0436', 'NDCG@5': '0.0312', 'HIT@10': '0.0607', 'NDCG@10': '0.0368', 'HIT@20': '0.0842', 'NDCG@20': '0.0427'}
+EarlyStopping counter: 5 out of 30
+{'epoch': 28, 'loss': '0.1874'}
+{'Epoch': 28, 'HIT@5': '0.0440', 'NDCG@5': '0.0322', 'HIT@10': '0.0610', 'NDCG@10': '0.0377', 'HIT@20': '0.0878', 'NDCG@20': '0.0444'}
+Validation score increased.  Saving model ...
+{'epoch': 29, 'loss': '0.1831'}
+{'Epoch': 29, 'HIT@5': '0.0434', 'NDCG@5': '0.0311', 'HIT@10': '0.0618', 'NDCG@10': '0.0370', 'HIT@20': '0.0881', 'NDCG@20': '0.0436'}
+EarlyStopping counter: 1 out of 30
+{'epoch': 30, 'loss': '0.1769'}
+{'Epoch': 30, 'HIT@5': '0.0431', 'NDCG@5': '0.0309', 'HIT@10': '0.0612', 'NDCG@10': '0.0367', 'HIT@20': '0.0850', 'NDCG@20': '0.0427'}
+EarlyStopping counter: 2 out of 30
+{'epoch': 31, 'loss': '0.1721'}
+{'Epoch': 31, 'HIT@5': '0.0449', 'NDCG@5': '0.0311', 'HIT@10': '0.0613', 'NDCG@10': '0.0364', 'HIT@20': '0.0861', 'NDCG@20': '0.0427'}
+EarlyStopping counter: 3 out of 30
+{'epoch': 32, 'loss': '0.1668'}
+{'Epoch': 32, 'HIT@5': '0.0416', 'NDCG@5': '0.0293', 'HIT@10': '0.0613', 'NDCG@10': '0.0357', 'HIT@20': '0.0864', 'NDCG@20': '0.0419'}
+EarlyStopping counter: 4 out of 30
+{'epoch': 33, 'loss': '0.1636'}
+{'Epoch': 33, 'HIT@5': '0.0416', 'NDCG@5': '0.0290', 'HIT@10': '0.0594', 'NDCG@10': '0.0347', 'HIT@20': '0.0865', 'NDCG@20': '0.0415'}
+EarlyStopping counter: 5 out of 30
+{'epoch': 34, 'loss': '0.1599'}
+{'Epoch': 34, 'HIT@5': '0.0413', 'NDCG@5': '0.0293', 'HIT@10': '0.0601', 'NDCG@10': '0.0353', 'HIT@20': '0.0853', 'NDCG@20': '0.0417'}
+EarlyStopping counter: 6 out of 30
+{'epoch': 35, 'loss': '0.1547'}
+{'Epoch': 35, 'HIT@5': '0.0445', 'NDCG@5': '0.0313', 'HIT@10': '0.0623', 'NDCG@10': '0.0370', 'HIT@20': '0.0880', 'NDCG@20': '0.0435'}
+EarlyStopping counter: 7 out of 30
+{'epoch': 36, 'loss': '0.1510'}
+{'Epoch': 36, 'HIT@5': '0.0427', 'NDCG@5': '0.0306', 'HIT@10': '0.0622', 'NDCG@10': '0.0368', 'HIT@20': '0.0873', 'NDCG@20': '0.0431'}
+EarlyStopping counter: 8 out of 30
+{'epoch': 37, 'loss': '0.1489'}
+{'Epoch': 37, 'HIT@5': '0.0432', 'NDCG@5': '0.0307', 'HIT@10': '0.0639', 'NDCG@10': '0.0373', 'HIT@20': '0.0889', 'NDCG@20': '0.0436'}
+EarlyStopping counter: 9 out of 30
+{'epoch': 38, 'loss': '0.1449'}
+{'Epoch': 38, 'HIT@5': '0.0429', 'NDCG@5': '0.0301', 'HIT@10': '0.0617', 'NDCG@10': '0.0362', 'HIT@20': '0.0887', 'NDCG@20': '0.0430'}
+EarlyStopping counter: 10 out of 30
+{'epoch': 39, 'loss': '0.1401'}
+{'Epoch': 39, 'HIT@5': '0.0432', 'NDCG@5': '0.0303', 'HIT@10': '0.0628', 'NDCG@10': '0.0367', 'HIT@20': '0.0888', 'NDCG@20': '0.0431'}
+EarlyStopping counter: 11 out of 30
+{'epoch': 40, 'loss': '0.1422'}
+{'Epoch': 40, 'HIT@5': '0.0431', 'NDCG@5': '0.0300', 'HIT@10': '0.0637', 'NDCG@10': '0.0366', 'HIT@20': '0.0881', 'NDCG@20': '0.0427'}
+EarlyStopping counter: 12 out of 30
+{'epoch': 41, 'loss': '0.1369'}
+{'Epoch': 41, 'HIT@5': '0.0428', 'NDCG@5': '0.0291', 'HIT@10': '0.0601', 'NDCG@10': '0.0346', 'HIT@20': '0.0878', 'NDCG@20': '0.0416'}
+EarlyStopping counter: 13 out of 30
+{'epoch': 42, 'loss': '0.1371'}
+{'Epoch': 42, 'HIT@5': '0.0415', 'NDCG@5': '0.0288', 'HIT@10': '0.0601', 'NDCG@10': '0.0348', 'HIT@20': '0.0901', 'NDCG@20': '0.0424'}
+EarlyStopping counter: 14 out of 30
+{'epoch': 43, 'loss': '0.1327'}
+{'Epoch': 43, 'HIT@5': '0.0414', 'NDCG@5': '0.0285', 'HIT@10': '0.0615', 'NDCG@10': '0.0349', 'HIT@20': '0.0890', 'NDCG@20': '0.0418'}
+EarlyStopping counter: 15 out of 30
+{'epoch': 44, 'loss': '0.1326'}
+{'Epoch': 44, 'HIT@5': '0.0421', 'NDCG@5': '0.0295', 'HIT@10': '0.0623', 'NDCG@10': '0.0360', 'HIT@20': '0.0886', 'NDCG@20': '0.0426'}
+EarlyStopping counter: 16 out of 30
+{'epoch': 45, 'loss': '0.1314'}
+{'Epoch': 45, 'HIT@5': '0.0418', 'NDCG@5': '0.0291', 'HIT@10': '0.0609', 'NDCG@10': '0.0352', 'HIT@20': '0.0882', 'NDCG@20': '0.0421'}
+EarlyStopping counter: 17 out of 30
+{'epoch': 46, 'loss': '0.1280'}
+{'Epoch': 46, 'HIT@5': '0.0429', 'NDCG@5': '0.0300', 'HIT@10': '0.0613', 'NDCG@10': '0.0359', 'HIT@20': '0.0884', 'NDCG@20': '0.0428'}
+EarlyStopping counter: 18 out of 30
+{'epoch': 47, 'loss': '0.1252'}
+{'Epoch': 47, 'HIT@5': '0.0434', 'NDCG@5': '0.0295', 'HIT@10': '0.0638', 'NDCG@10': '0.0361', 'HIT@20': '0.0899', 'NDCG@20': '0.0426'}
+EarlyStopping counter: 19 out of 30
+{'epoch': 48, 'loss': '0.1231'}
+{'Epoch': 48, 'HIT@5': '0.0414', 'NDCG@5': '0.0289', 'HIT@10': '0.0612', 'NDCG@10': '0.0353', 'HIT@20': '0.0892', 'NDCG@20': '0.0424'}
+EarlyStopping counter: 20 out of 30
+{'epoch': 49, 'loss': '0.1244'}
+{'Epoch': 49, 'HIT@5': '0.0422', 'NDCG@5': '0.0289', 'HIT@10': '0.0618', 'NDCG@10': '0.0353', 'HIT@20': '0.0873', 'NDCG@20': '0.0417'}
+EarlyStopping counter: 21 out of 30
+{'epoch': 50, 'loss': '0.1222'}
+{'Epoch': 50, 'HIT@5': '0.0408', 'NDCG@5': '0.0277', 'HIT@10': '0.0611', 'NDCG@10': '0.0342', 'HIT@20': '0.0873', 'NDCG@20': '0.0408'}
+EarlyStopping counter: 22 out of 30
+{'epoch': 51, 'loss': '0.1200'}
+{'Epoch': 51, 'HIT@5': '0.0417', 'NDCG@5': '0.0286', 'HIT@10': '0.0606', 'NDCG@10': '0.0347', 'HIT@20': '0.0875', 'NDCG@20': '0.0415'}
+EarlyStopping counter: 23 out of 30
+{'epoch': 52, 'loss': '0.1189'}
+{'Epoch': 52, 'HIT@5': '0.0410', 'NDCG@5': '0.0284', 'HIT@10': '0.0609', 'NDCG@10': '0.0349', 'HIT@20': '0.0871', 'NDCG@20': '0.0414'}
+EarlyStopping counter: 24 out of 30
+{'epoch': 53, 'loss': '0.1163'}
+{'Epoch': 53, 'HIT@5': '0.0406', 'NDCG@5': '0.0280', 'HIT@10': '0.0602', 'NDCG@10': '0.0343', 'HIT@20': '0.0859', 'NDCG@20': '0.0408'}
+EarlyStopping counter: 25 out of 30
+{'epoch': 54, 'loss': '0.1169'}
+{'Epoch': 54, 'HIT@5': '0.0392', 'NDCG@5': '0.0274', 'HIT@10': '0.0592', 'NDCG@10': '0.0338', 'HIT@20': '0.0877', 'NDCG@20': '0.0410'}
+EarlyStopping counter: 26 out of 30
+{'epoch': 55, 'loss': '0.1173'}
+{'Epoch': 55, 'HIT@5': '0.0407', 'NDCG@5': '0.0279', 'HIT@10': '0.0604', 'NDCG@10': '0.0342', 'HIT@20': '0.0866', 'NDCG@20': '0.0408'}
+EarlyStopping counter: 27 out of 30
+{'epoch': 56, 'loss': '0.1142'}
+{'Epoch': 56, 'HIT@5': '0.0439', 'NDCG@5': '0.0296', 'HIT@10': '0.0635', 'NDCG@10': '0.0360', 'HIT@20': '0.0892', 'NDCG@20': '0.0425'}
+EarlyStopping counter: 28 out of 30
+{'epoch': 57, 'loss': '0.1124'}
+{'Epoch': 57, 'HIT@5': '0.0413', 'NDCG@5': '0.0287', 'HIT@10': '0.0622', 'NDCG@10': '0.0354', 'HIT@20': '0.0892', 'NDCG@20': '0.0422'}
+EarlyStopping counter: 29 out of 30
+{'epoch': 58, 'loss': '0.1113'}
+{'Epoch': 58, 'HIT@5': '0.0430', 'NDCG@5': '0.0296', 'HIT@10': '0.0613', 'NDCG@10': '0.0355', 'HIT@20': '0.0889', 'NDCG@20': '0.0424'}
+EarlyStopping counter: 30 out of 30
+Early stopping
+---------------Change to test_rating_matrix!-------------------
+{'Epoch': 0, 'HIT@5': '0.0351', 'NDCG@5': '0.0257', 'HIT@10': '0.0482', 'NDCG@10': '0.0300', 'HIT@20': '0.0668', 'NDCG@20': '0.0346'}
+LightSANs-Beauty-0
+{'Epoch': 0, 'HIT@5': '0.0351', 'NDCG@5': '0.0257', 'HIT@10': '0.0482', 'NDCG@10': '0.0300', 'HIT@20': '0.0668', 'NDCG@20': '0.0346'}
