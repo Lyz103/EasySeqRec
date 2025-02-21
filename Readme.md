@@ -7,7 +7,7 @@
 - **Integrated Baselines**: Run multiple advanced models (SASRec, GRU4Rec, LinRec, Mamba4Rec, LightSans, FMLP4Rec) with minimal configuration. 
 - **One-click Execution**: Execute all six models across various datasets simultaneously. 
 - **Automated Result Collection**: Results are directly saved to an Excel file, removing the need for manual tracking and computation. 
-- **LaTeX Output**: Convert Excel results into LaTeX format with a provided script for seamless paper integration. 
+- **LaTeX Output**: Convert Excel results into LaTeX format with a provided script for seamless paper integration.(TO DO) 
 - **Flexible Dataset Handling**: Easily process datasets and run experiments with customized configurations.
 
 ## Requirements 📋
